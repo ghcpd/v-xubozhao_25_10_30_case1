@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.13, pytest-8.4.2, pluggy-1.6.0
+rootdir: /mnt/e/Bug Bash/10_30/S430-v2
+plugins: cov-7.0.0
+collected 5 items
+
+tests/test_service.py .....                                              [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.11.13-final-0 _______________
+
+Name              Stmts   Miss  Cover
+-------------------------------------
+src/__init__.py       0      0   100%
+src/service.py       30      1    97%
+-------------------------------------
+TOTAL                30      1    97%
+Coverage HTML written to dir htmlcov
+============================== 5 passed in 1.75s ===============================
